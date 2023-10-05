@@ -1,0 +1,178 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+body {
+    display:block;
+    background: lightgoldenrodyellow;
+}
+
+
+
+nav {
+    background-color: cadetblue;
+    height: 7vh;
+    width: 100%;
+}
+
+
+
+label.logo {
+    color: gold;
+    font-size: larger;
+    line-height: 7vh;
+    padding: 0 3vw;
+    margin: 2vw;
+    border-style: solid;
+    border-color: gold;
+}
+
+
+
+nav ul {
+    float: right;
+    margin-right: 3vw;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    line-height: 7vh;
+}
+
+
+
+nav ul li a {
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+a {
+    padding: 0 1vw;
+}
+
+
+
+li a:hover {
+    color: goldenrod;
+}
+
+
+
+.content {
+    float: left;
+    margin-left: 20vw;
+    margin-top: 20vh;
+}
+
+
+
+.content h1 {
+    color: goldenrod;
+    display: inline-flex;
+    font-size: 7vh;
+}
+
+
+
+.content h4 {
+    color: darkred;
+    font-size: 3vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+
+
+.image img {
+    margin-top: 12vh;
+}
+
+
+
+.button {
+    text-decoration: none;
+    background: coral;
+    color: floralwhite;
+    border-radius: 1vw;
+    padding: 1vw;
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    font-weight: 800;
+}
+
+
+
+.button:hover {
+    background: lightgreen;
+    color:black;
+}
+
+
+
+footer {
+    background-color: cadetblue;
+    margin-top: 4vh;
+    height: 7vh;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+footer ul li {
+    display: inline-block;
+    line-height: 7vh;
+}
+
+
+
+footer ul li a {
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    
+    .content {
+        float: none;
+        margin: 12vw;
+    }
+
+    
+    .button {
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+    .image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+}
